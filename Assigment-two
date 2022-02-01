@@ -1,0 +1,22 @@
+
+
+inp = input('Enter Your Name : ')
+sub1 = int(input('Maths Marks :'))
+sub2 = int(input('Physics Marks :'))
+sub3 = int(input('Chemistry Marks :'))
+sub4 = int(input('English Marks :'))
+sub5 = int(input('Urdu Marks :'))
+
+ttm = sub1+sub2+sub3+sub4+sub5
+
+print(inp)
+print('Your Total Marks iS : ',ttm)
+
+per = (ttm/1100)*100
+
+# with decimal
+# pvd = per
+# without decimal
+pvd = int(per)
+
+print("Your Percentage is : ",pvd,'%')
