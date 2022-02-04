@@ -1,0 +1,59 @@
+import math
+                    #1 Find Leap Year
+# inp = int(input("Enter Any Year To Find :"))
+# if inp%4==0:
+#     print(inp,': is leap year')
+# else:
+#     print(inp,': is not leap year')
+
+                # 2 find negative number
+
+# inp = int(input("Enter Num To Check The Number Is -neg or +pos :"))
+# if inp <0:
+#     print(inp,' : is Negative number')
+# else:
+#     print(inp,' : is positive  number')
+
+                    # ask a day
+
+# inp = input("Enter Weak Day :")
+# if(inp=='sunday' or inp=='SUNDAY'):
+#     print(inp,':is Holiday')
+# elif(inp=='friday' or inp=='FRIDAY'):
+#     print(inp,':is Eid')
+# elif(inp=="monday" or inp=='MONDAY'):
+#     print(inp,':is working day')
+# elif(inp=="tuesday" or inp=='TUESDAY'):
+#     print(inp,':is working day')
+# elif(inp=="wednesday"or inp=='WEDNESDAY'):
+#     print(inp,':is working day')
+# elif(inp=="thursday"or inp=='THURSDAY'):
+#     print(inp,':is working day')
+# elif(inp=="saturday" or inp=='SATURDAY'):
+#     print(inp,':is working day')
+# else:
+#     print(inp,':is not any day')
+
+                            # vowels
+
+# inp = input("Enter Alphabet :")
+# if(inp=='a' or inp=='A'):
+#     print(inp,':is vowels')
+# elif(inp=='e' or inp=='E'):
+#     print(inp,':is Eid')
+# elif(inp=="i" or inp=='I'):
+#     print(inp,':is vowels')
+# elif(inp=="o" or inp=='O'):
+#     print(inp, ':is vowels')
+# elif(inp=="u"or inp=='U'):
+#     print(inp, ':is vowels')
+# else:
+#     print(inp,':is consonant')
+
+
+                # find nearest number
+
+
+inp = int(input("Enter Any Number To check the nearest 100  :"))
+nh = math.ceil((inp/100))*100
+print(nh)
