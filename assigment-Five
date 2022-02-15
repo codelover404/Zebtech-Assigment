@@ -1,0 +1,9 @@
+
+stu={'uzair','hunain','moiz','gohar','shehzad','maaz','kumail'}
+stu1=[]
+inp = input('enter name to remove ')
+for i in stu:
+    if i == inp:
+        continue
+    stu1.append(i)
+print(stu1)
