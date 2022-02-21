@@ -1,0 +1,29 @@
+
+# METHOD ONE
+
+name = ['mango','banana','orange','banana','pineapple']
+inp = 'banana'
+count=0
+for i in range(len(name)):
+    if name[i]==inp:
+        count=count+1
+        print('the index is :', i)
+if count >= 1:
+    print('availible')
+else:
+    print('not availible')
+
+# METHOD 2
+#
+#
+# name = ['mango','orange','banana','pineapple']
+# inp = 'banana'
+# count=False
+# for i in range(len(name)):
+#     if inp in name[i]:
+#         count=True
+#         print('the index is :', i)
+# if count == True:
+#     print('availible')
+# else:
+#     print('not availible')
