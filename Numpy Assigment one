@@ -1,0 +1,13 @@
+import numpy as np
+data=np.array([
+        [1,2,4,5,6],
+        [6,5,34,6,2]
+              ])
+rl=len(data)
+cl=5
+for row in range(rl):
+    for col in range(cl):
+        if 5 == data[row][col]:
+            print('Row Index : ',row)
+            print('Col Index :',col)
+    print("-----")
